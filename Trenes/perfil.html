@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/workspace.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+}
+::-webkit-scrollbar {
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6e93f7;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4070f4;
+}
+.container {
+  display: flex;
+  gap: 12px;
+  max-width: 400px;
+  width: 100%;
+  background: #4070f4;
+  border-radius: 12px;
+  padding: 30px;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-padding: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  margin-right: 700px;
+}
+.container .card {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  background: #fff;
+  scroll-snap-align: start;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+.card .image {
+  height: 150px;
+  width: 150px;
+  padding: 4px;
+  background: #4070f4;
+  border-radius: 50%;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.card h2 {
+  margin-top: 25px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card p {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center
+
+}
+.center h1 {
+    color: navy;
+    font-size: 60px;
+    font-weight: bold;
+    width: 990px;
+    text-align: left;
+    margin-top:0;
+    margin-left: 1050px;
+}
+.center p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 885px;
+    margin-top:10px ;
+    text-align: left;
+}
+    </style>
+
+</head>
+<body>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="logo">
+                        <img src="https://huescar.es/comollegar/iconos/tren.png" alt="">
+                        <span class="nav-item">  Menu</span>
+                    </a>
+                </li>
+                <li><a href="perfil.html">
+                    <i class='bx bx-user' ></i>
+                    <span class="nav-item">Perfil</span>
+                </a></li> 
+                <li><a href="trenes.html">
+                    <i class='bx bx-train' ></i>
+                    <span class="nav-item">Trenes</span>
+                </a></li> 
+                <li><a href="Rutas.html">
+                    <i class='bx bx-map' ></i>
+                    <span class="nav-item">Rutas</span>
+                </a></li> 
+                <li><a href="login.html" class="logout">
+                    <i class='bx bx-log-out' ></i>
+                    <span class="nav-item">Log out</span>
+                </a></li> 
+            </ul>
+        </nav>
+        <section class="container">
+            <div class="card">
+              <div class="image">
+                <img src="https://cdn-icons-png.flaticon.com/512/6073/6073873.png" alt="" />
+              </div>
+              <h2>Bienvenido Sra. Castillo</h2>
+              <p>Lunes 4 de diciembre 2023.</p>
+            </div>
+          </section>
+          <div class="center">
+            <h1>SISTEMA DE GESTION </h1></br>
+            <h1> DE TRENES</h1>
+            <p>.</p>
+            <div class="boton">    
+             </div>

@@ -1,0 +1,439 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+body{
+    background: #dfe9f5;
+    
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+
+
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 9px 0 0 9px;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.logo span {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.bx{
+    position:relative;
+    width: 70px;
+    height:40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+a:hover{
+    background: #eee;
+
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background: #ecececdb;
+}
+.card-list {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1250px;
+    margin-bottom: 160px ;
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: -1px;
+    gap: 20px;
+    
+
+
+}
+.card-list .card-item {
+    background: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+}
+.card-list .card-item:hover {
+    border: 2px solid #000;
+}
+.card-list .card-item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card-list span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.card-list .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+.card-list .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+.card-list .editor {
+    background-color: #d6f8d6; 
+    color: #205c20;
+}
+.card-item h1 {
+    color: navy;
+    font-size: 15px;
+    margin-top: 28px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.card-item .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-35deg);
+    height: 40px;
+    width: 40px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-top: 40px;
+    transition: 0.2s ease;
+}
+.card-list .card-item:hover .arrow  {
+    background: #000;
+    color: #fff; 
+}
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
+.titulo{
+    color: navy;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins ' sans-serif;
+    padding-right: 10px;
+    padding-top: 50px;
+    
+}
+.center h2{
+    font-size: 35px;
+    text-align: center;
+    color:navy;
+    margin-top: 60px;
+    margin-bottom: -40px;
+    margin-right: 300px;
+}
+
+.box{
+    text-align: center;
+    margin-left: 850px;
+}
+
+.click{
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #403e3d ;
+    border-radius: 50px;
+
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 00;
+    z-index: 999;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper{
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+
+}
+.wrapper h2{
+    margin-top: 0;
+    color: #333;
+    font-size: 20px;
+    margin-right: 300px;
+}
+.wrapper .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.wrapper .contenido{
+    max-height: 30%;
+    overflow: auto;
+}
+.caja {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type="Submit"]{
+    background-color: #413b3b;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px ;
+
+}
+.close a{
+    background-color: transparent;
+    margin-left: 300px;
+    margin-bottom: 500px;
+}
+
+
+
+
+
+.box-2{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.linea2 {
+    width: 900px;
+    height: 700px;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+
+
+.click-2{
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #403e3d ;
+    border-radius: 50px;
+
+}
+.overlay-2{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 00;
+    z-index: 999;
+    font-family: 'Poppins' sans-serif;
+}
+.overlay-2:target{
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper-2{
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+
+}
+.wrapper-2 h2{
+    margin-top: 0;
+    color: #333;
+    font-size: 20px;
+    margin-right: 300px;
+}
+.wrapper-2 .contenido-2{
+    max-height: 30%;
+    overflow: auto;
+}
+.caja-2 {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+input[type=date], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=number], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type="Submit"]{
+    background-color: #413b3b;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px ;
+
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}

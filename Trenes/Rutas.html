@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/workspace.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Menu Adm</title>  
+</head>
+<style>
+body {
+    background-image: url();
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+</style>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="workspace.html" class="logo">
+                    <img src="https://huescar.es/comollegar/iconos/tren.png" alt="">
+                    <span class="nav-item">MENU</span>
+                </a>
+            </li>
+            <li><a href="perfil.html">
+                <i class='bx bx-user' ></i>
+                <span class="nav-item">Perfil</span>
+            </a></li> 
+            <li><a href="trenes.html">
+                <i class='bx bx-train' ></i>
+                <span class="nav-item">Trenes</span>
+            </a></li> 
+            <li><a href="Rutas.html">
+                <i class='bx bx-map' ></i>
+                <span class="nav-item">Rutas</span>
+            </a></li> 
+            <li><a href="login.html" class="logout">
+                <i class='bx bx-log-out' ></i>
+                <span class="nav-item">Log out</span>
+            </a></li> 
+        </ul>
+    </nav>
+    <div class="box-2">
+        <a href="#divone" class="click-2">Agregar Ruta</a>        
+     </div>
+        <div class="overlay" id="divone"> 
+            <div class="wrapper-2">
+                <h2>Nueva ruta</h2>
+                <a href="#" class="close">&times;</a>
+                <div class="contenido-2">
+                    <div class="caja-2">
+                        <form>
+                            <label>Nombre de la ruta</label>
+                            <input type="text" placeholder="ID">
+                            <label>Estacion de Inicio:</label>
+                            <input type="text" placeholder="Numero de serie">
+                            <label>Estacion de Fin:</label>
+                            <input type="text">
+                            <label>Linea en que opera:</label>
+                            <select name="estación" id="lang">
+                                <option value="Linea">Seleccione Linea</option>
+                                <option value="Linea1">Linea 1</option>
+                                <option value="Linea2">Linea 2</option>
+                            </select>
+                            <label>Inicio de Servicio:</label>
+                            <input type="date">
+                            <textarea placeholder="Cometarios"></textarea>
+                            <input type="submit" value="Enviar">
+                        </from>
+
+                    </div>
+
+                </div>          
+
+            </div>
+     </div>
+    <section>
+        <div>
+          <img class="linea2" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Mapa_del_metro_de_Santo_Domingo_y_Telef%C3%A9rico_de_Santo_Domingo.png"></a>
+
+        </div>
+    </section>
+</body>
+</html>
